@@ -18,7 +18,7 @@
   border-radius: 5px;
 }
 
-.searchBtn {
+ #searchBtn {
   padding: 10px;
   background: #007bff;
   color: white;
@@ -27,6 +27,8 @@
   border-radius: 5px;
 }
 
+
+
 #weatherContainer {
   display: none; /* Hide until data is available to display */
 }
@@ -34,4 +36,10 @@
 #errorMessage {
   color: red;
   font-weight: bold;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background: #007bff;
+  padding: 40px 16px;
 }
